@@ -1,0 +1,18 @@
+if [ $# -ne 1 ]
+then
+echo No name were Entered
+exit 1
+else
+if [ -n $1 ]
+then
+uname=$(cat /etc/passwd | grep $1 | cut -d: -f1)
+if [ "$uname" != "$1" ]
+then
+name=$(cat /etc/passwd | grep $1 | cut -d: -f5)
+echo $1 = $name 
+exit 0
+else
+echo $1 : No such user
+fi
+fi
+fi

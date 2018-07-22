@@ -1,0 +1,9 @@
+echo $1
+shift 2
+echo $2 $3
+echo $#
+shift
+echo $0
+shift 3 
+echo $1
+echo $*

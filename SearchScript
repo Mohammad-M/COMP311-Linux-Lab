@@ -1,0 +1,5 @@
+if [ -n $1 ]
+then
+cat /etc/passwd | cut -d: -f5 | grep "^$1" > SelectedUser.txt
+exit 0
+fi

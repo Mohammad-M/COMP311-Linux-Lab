@@ -1,0 +1,76 @@
+while true
+do
+	echo
+	echo enter course id
+	read id
+	isExist=$(grep $id courses|cut -d ',' -f1)
+	
+	if [ "$isExist" != "$id" ]
+	then
+		noOfDigit=$(ex $(echo $id |wc -c) - 1)
+		if [ $noOfDigit -eq 7 ]
+		then
+			echo "ID is: $id"
+			break
+		else
+			echo "not valid : $id"
+		fi
+	else
+		echo course exists
+	fi
+done
+echo .................................................................
+echo
+echo "Please Enter course name"
+read courseName
+while [ 1 ]
+do
+	echo "Please Enter Book isbn"
+	read isbn
+	noOfDigit=$(ex $(echo $isbn |wc -c) - 1)
+	if [ $noOfDigit -eq 12 ]
+		then
+			char=$(echo $isbn |tr -d '-')
+			echo $char
+			if [[ $char=~^[0-9]+$ ]]
+			then
+				fnum=$(echo $isbn |cut -d '-' -f1 )
+				noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+				if [ $noOfDigit -eq 2 ]
+				then
+					fnum=$(echo $isbn |cut -d '-' -f2 )
+					noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+					if [ $noOfDigit -eq 3 ]
+					then
+						fnum=$(echo $isbn |cut -d '-' -f3 )
+						noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+						if [ $n0OfDigit -eq 5 ]
+						then
+							break
+						else
+							echo error4
+						fi
+					else
+						echo error3
+					fi
+				else
+					echo error2
+				fi
+			else
+				echo error1
+			fi
+	else
+		echo "not valid : $id"
+	fi
+done
+echo .................................................................
+echo
+echo "Enter First Name of instructor"
+read FName
+echo "Please Last Name of instructor"
+read LName
+name="$FName $LName"
+echo "Your Name is: $name."
+line="$id,$nameCourse,$isbn,$name"
+echo $line>>courses
+echo .................................................................

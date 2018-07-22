@@ -1,0 +1,93 @@
+a=$1
+if [ -f $1 ] 
+then
+	if [ "$2" = "name" ] || [ "$2" = "id" ]
+	then
+	for op in $(cat $1)
+ 	do
+	
+x=$(echo $op | cut -f1 -d":") 
+y=$(echo $op | cut -f2 -d":")
+z=$(echo $op | cut -f3 -d":")
+fn=$(echo $z | cut -f1 -d"_")
+ln=$(echo $z | cut -f2 -d"_")
+fc=$(echo $fn | cut -c 1)
+lc=$(echo $ln | rev | cut -c 1)
+sn=$(echo $y | cut -c 2-3)
+s=$fc$sn$lc
+fnn=$(echo $z | cut -f1 -d"_" | wc -c)
+fnn="$(($fnn - 1))"
+lnn=$(echo $z | cut -f2 -d"_" | wc -c)
+lnn="$(($lnn - 1))"
+if [ "$x" == "add" ]
+	then
+		case $y in
+		([0-9][0-9][0-9][0-9])
+		id=$(cat ./users | cut -f2 -d" " | grep $y) 
+		sd=$(cat ./users | cut -f1 -d" " | grep $s)
+			if [[ $fnn -ge 3 ]] && [[ $lnn -ge 4 ]]
+			then	
+				if [[ "$fc" = [a-z] ]] && [[ "$lc" = [a-z] ]]
+				then
+					if [ "$y" != "$id" ]
+					then
+						if [ "$sd" != "$s" ]
+						then
+							echo $s $y $fn $ln >>./users
+							echo added: $s
+						else
+							sn="$(($sn + 1))"
+							echo $fc$sn$lc $y $fn $ln >>./users
+							echo added: $fc$sn$lc
+						fi
+					else
+						echo $y: User id already exists
+					fi
+				else 
+					echo wrong Name 
+				fi
+			else
+				echo name is short
+			fi;;
+		(*) echo wrong id ;; 
+		esac
+elif [ "$x" == "del" ]
+	then
+		case $y in
+		([0-9][0-9][0-9][0-9])	
+		id=$(cat ./users | cut -f2 -d" " | grep $y) 
+			if [ "$y" == "$id" ]
+			then
+				as=$(cat ./users | grep $y | cut -f1 -d" " )
+				sed -i "/$id/d" users
+				echo deleted: $as
+			else
+				echo $y: No such id number
+			fi;;
+		(*) echo $y: No such id number;; 
+		esac
+	else
+		echo $x : unknown option
+	fi
+
+	done
+	if [ "$2" = "name" ]
+	then
+	echo User information sorted by $2
+	sort -k3 -t" " -n ./users
+	else
+	echo User information sorted by $2
+	sort -k2 -t" " -n ./users
+	fi
+	else
+	 if [ $# -ne 2 ]
+		then
+		echo usage: admin  filename  sortcriteria
+		else
+		echo $2:  No such option
+		fi 
+	fi
+else
+	echo $1: no such filename
+fi
+

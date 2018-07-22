@@ -1,0 +1,2 @@
+cp $1 $2
+echo the file $1 hase ben copied to file $2

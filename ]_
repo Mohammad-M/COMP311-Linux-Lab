@@ -1,0 +1,8 @@
+for path in $(echo $PATH | sed 's/:/ g')
+do
+	if [ -f $path/$1]
+	then
+		echo $path/$1
+	fi
+echo no such command
+done

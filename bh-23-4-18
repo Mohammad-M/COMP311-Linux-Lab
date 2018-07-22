@@ -1,0 +1,1000 @@
+more lsfile
+more ree
+more error
+ls
+vi error
+c lear
+clear
+cat /etc/passwd | grep u1141648 | cut -d: -f5 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f4 | cut -d_ -f1
+cat /etc/passwd | grep u1141648
+cat /etc/passwd | grep u1141648 | cut -d: -f6 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f7 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f5
+etc group
+cat /etc/passwd
+who
+who | grep u1141648 | 
+who | grep u1141648 | tr -s " " | cut -d: -f5
+who | grep u1141648 | tr -s " " | cut -d: -f4
+who | grep u1141648 | tr -s " " | cut -d_ -f4
+who | grep u1141648 | tr -s " " -f4 | cut -d_ -f4
+who | grep u1141648 | tr -s " " -f4 | cut -d_ -f1
+who | grep u1141648 | tr -s " " -f4 | cut -d' ' -f1
+who | grep u1141648 | tr -s " " -f4 | cut -d' ' -f4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+clear
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+cat  /etc/groups | grep u1141648
+ls /etc
+cat  /etc/group | grep u1141648
+who  /etc/group | grep u1141648
+more /etc/group
+who  /etc/group | grep u1141648 | cut -d: -f1
+who  /etc/group_ | grep u1141648 | cut -d: -f1
+who  /etc/group- | grep u1141648 | cut -d: -f1
+clear
+ls /etc
+vi group
+clear
+ls /etc
+cat /etc/group- | grep u1141648 | cut -d: -f1
+cat /etc/group | grep u1141648 | cut -d: -f1
+cat /etc/group | grep u1141648 | cut -d: -f1
+cat /etc/group- | grep u1141648 | cut -d: -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f4
+more /etc/passwd
+more /etc/group
+cat /etc/grouo | grep $(cat /etc/pass | grep u1141648 | cut -d: -f4) cut -d: -f4
+cat /etc/grouo | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4) cut -d: -f4
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f4
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f1
+clear
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep root | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep u1234 | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep u1152329 | cut -d: -f4)| cut -d: -f1
+find / -name passwd -print \ more
+find / -name passwd -print | more
+cat /etc/group | grep $(cat /etc/passwd | grep u1152329 | cut -d: -f4)| cut -d: -f1
+find / -name passwd -print | more
+find / -name passwd -print | more 2> error
+find / -name passwd -print | more 2>> error
+find / -name passwd -print  2>> error |more
+ls -al
+vi forever
+ls -al
+more forever
+PATH=$PATH
+CHMODE +X forever
+CHMODE +x forever
+chmode +x forever
+chmode u+x forever
+chmod +x forever
+ls -al
+forever&
+forever&
+forever&
+echo $PATH
+PATH=$PATH:.
+echo $PATH
+forever&
+forever&
+forever&
+JOBS
+jobs
+fg %2
+jobs
+bg %2
+jobs
+kill %3
+jobs
+kill %3
+jobs
+forever&
+jobs
+kill %3
+jobs
+kill %3
+kill %2
+kill %2
+kill %1
+kill %1
+jobs
+forever&
+forever&
+forever&
+jobs
+kill %2
+fg %1
+jobs
+bg %1
+jobs
+forever&
+kill %4
+kill %1
+kill %2
+jobs
+kill %3
+jobs
+kill %3
+jobs
+jobs
+forever&
+forever&
+forever&
+fg %1
+forever&
+jobs
+kill %2
+jobs
+kill %4
+jobs
+kill %4
+jobs
+kill %3
+kill %3
+jobs
+kill %1
+kill %1
+jobs
+pid(100)
+pid (100)
+pid (100)
+clear
+
+ps -f
+ps 
+ps -f
+man ps
+ps -ef
+ps -eF
+ps -ely
+ps -eF
+ps -f
+var1=first
+var2=second
+export var2
+set | grep var
+env | grep var
+ksh
+ps -f
+clear
+set | grep var
+env | grep var
+ksh
+ps -f
+ksh
+ps -f
+clear
+ps -l
+ps -l
+ps -l
+nice -6 ps -l
+nice -8 ps -l
+nice --8 ps --l
+nice --8 ps --l
+nice -0 ps -l
+man 7 signal
+forever$
+ps -f
+jobs
+ls -al
+forever&
+jobs
+kill -15 123
+
+jobs
+kill 1
+kill %1
+kill %2
+jobs
+jobs
+ps -f
+ps -l
+ps -ef
+ps -ef | grep forever
+forever&
+ps -f
+jobs
+kill -15 19593
+jobs
+kill -15 19591
+jobs
+kill -15 19591
+kill %2
+jobs
+jobs
+jobs
+jobs
+kill %3
+kill %3
+jobs
+jobs
+jobs
+forever&
+forever&
+forever&
+kill -15 19804
+jobs
+jobs
+kill -TERM 19804
+jobs
+kill -SIGTERM 19804
+kill -SIGTERM 19806
+jobs
+jobs
+kill -15 19807
+jobs
+jobs
+jobs
+jobs
+jobs
+kill -15 20259
+kill -15 20259
+kill -15 20260
+kill -15 20260
+clear
+ps -ef | grep u1141648
+kill -TERM 20260
+kill pidofbash 20260
+ps -ef | grep u1141648
+chmod
+ls
+ls -al
+chmod 316 xxx
+ls -al
+chmod 461 xxx
+ls -al
+chmod 461 forever
+ls -al
+chmod 073 forever
+ls -al
+chmod 073 xxx
+ls -al
+vi students
+more student
+vi students
+more students
+ls
+touch students
+vi students
+ls
+vi students
+ls
+head -2 students
+ 
+head 3 tail 2 students
+tail students | head -1
+tail -3 students | head -1
+head -4 students | tail -1
+cat students
+grep ahmad students
+cat students | grep ahmad
+grep -i ahmad students
+grep -l ribhi 
+grep -v Ribhi students
+grep -v ribhi students
+grep -iv hamdan students
+cut -d: -f students
+cut -d: -f2 students
+cut -d: -f1 students
+cut -d: -f0 students
+cut -d: -f3 students
+cut -d: -f3 students | cut -d: _
+cut -d: -f3 students | cut :d_
+cut -d: -f3 students | cut :d _
+cut -d: -f3 students | cut -d_
+cut -d_ students
+cut -d_ -f1 students
+cut -d_ -f2 students | cut -d: -f3
+grep -i hamdan students
+grep -i hamdan students | cut -d_ -f2
+grep -i hamdan students | cut -d_ -f
+grep -i hamdan students | cut -d_ -f1
+grep -i hamdan students | cut -d_ -f1 | cut -d: -f3
+grep -i _hamdan students | cut -d_ -f1 | cut -d: -f3
+clear
+clear
+clear
+grep -i _hamdan students | cut -d_ -f1 | cut -d: -f3
+cat students
+grep -i _hamdan students | cut -d_ -f1 | cut -d: -f3
+cut -c2,3
+cut -c2,3 students
+cut -c2,5 students
+cut -c2,11 students
+cut -c2-11 students
+cut -c2,5,6 students
+cut -c6 students
+grep hamdan students | cut c6
+grep hamdan students
+grep _hamdan students
+grep _hamdan students
+grep _hamdan students | cut -c6
+grep _hamdan students
+cut -c2,3 students
+grep -i _hamdan students | cut -d_ -f1 | cut -d: -f3
+grep _hamdan students
+grep -i _hamdan students | cut -d_ -f1 | cut -d: -f3
+grep -i _hamdan students | cut -6
+grep -i _hamdan students | cut -c6
+cut -c2-5 students
+tr "a-z" "A-Z" < students
+cat students
+grep -i ahmad students
+grep -i ahmad students | cut -d: -f3 | cut -d_ -f1
+tr "A-Z" "a-z" < grep -i ahmad students | cut -d: -f3 | cut -d_ -f1
+grep -i ahmad students | cut -d: -f3 | cut -d_ -f1 | tr "A-Z" "a-z" 
+wc -l students
+head -1 students | cut -d: -f3 | cut -d_ -f2 | wc -c
+ls | wc -l
+ls -al | wc -l
+ls -a | wc -l
+sort students
+sort -o result students
+sort -0 result students
+sort -O result students
+ls
+vi result
+
+ls
+sort -k2 -t: -n students
+sort -k2 -t: students
+sort students
+sort students | cut -d -f1
+sort students | cut -d: -f3
+sort students | cut -d -f1
+sort students | cut -d: -f3 | cut -d_ -f1
+sed `s/ahmad/damha/'
+
+sed `s/ahmad/damha/'
+
+sed `s/ahmad/damha/' students
+sed 's/ahmad/damha/' students
+sed 's/ahmad/damha/i' students
+sed 's/ahmad/damha/ig' students
+man regex
+clear
+grep -i 'hamdan$' students
+cut -d: -f3 students | grep -i '^ahmad'
+cut -d: -f3 st
+cut -d: -f3 students | grep -i '^ahmad'
+cut -d: -f3 students | grep a[dh][^6]
+cat students
+cut -d: -f3 students | grep a[dh]
+cut -d: -f1 students | grep a[dh][^6]
+cut -d: -f3 students | sed 's/^ahmad/sameer/ig'
+sed 's/^ahmad/sameer/i'
+sed 's/^ahmad/sameer/i' students
+sed 's/ahmad/sameer/i' students
+sed 's/ahmad/sameer/ig' students
+
+grep /etc/passwd
+grep -i '$[nm]' /etc/passwd | cut -d: -f5
+grep -i '$[nm]' /etc/passwd | cut -d: -f5
+grep -i '$[nm]' /etc/passwd
+grep -i '[nm]' /etc/passwd
+| grep -i '[nm]' /etc/passwd
+cut -d: -f5 /etc/passwd | grep -i '[nm]'
+cut -d: -f5 /etc/passwd | grep -i '$[nm]'
+cut -d: -f5 /etc/passwd | grep -i '[nm$]'
+cut -d: -f5 /etc/passwd | grep -i '[nm]$'
+| grep -i '[nm]' /etc/passwd
+grep /etc/passwd
+more /etc/passwd
+cut -d: -f5 /etc/passwd | grep -i '[nm]$'
+sort -k3 -t: /etc/passwd
+sort -k3 -t: -n /etc/passwd 
+sort -k3 -t: -n /etc/passwd |cut -d: -f5 | -d_ -f2
+sort -k3 -t: -n /etc/passwd | cut -d: -f5 | -d_ -f2
+sort -k3 -t: -n /etc/passwd | cut -d: -f5 | cut_ -f2
+sort -k3 -t: -n /etc/passwd | cut -d: -f5 | cut -d_ -f2
+sort -k3 -t: /etc/passwd
+cut -d: -f1 /etc/passwd | grep -i 'bash$'
+cut -d: -f1 /etc/passwd | grep -i '[bash]$'
+cut -d: -f0 /etc/passwd | grep -i '[bash]$'
+cut -d: -f /etc/passwd | gre
+cut -d: -f1 /etc/passwd | grep -i 'bash$'
+cat /etc/passwd | grep '^root'
+cat /etc/passwd | grep '^root' |cut -d: -f7
+ls -al /etc | grep '.conf$' |cut -c1 | grep - | wc -l
+cat /etc/passwd | grep '^root' |cut -d: -f7
+cut -d: -f1 /etc/passwd | grep -i 'bash$'
+cat /etc/passwd | grep '^root' |cut -d: -f7
+ls -al /etc | grep '.conf$' |cut -c1 | grep - | wc -l
+ls -ai
+touch cph
+cp .sh_history cph
+ls -al
+cat cph
+cat .sh_history
+vi .sh_history
+clear
+ls -al
+cp .bash_history cph
+vi cph
+more\ cph
+more cph
+ls
+vi myfirst
+ls
+chmod +x myfirst
+PATH=$PATH
+myfirst
+PATH=$PATH:.
+myfirst
+vi greetings
+chmod +x greetings
+greetings
+vi delete
+clear
+ls
+chmod +x delete
+delete
+ls
+vi copyF
+chmod +x  copyF 
+ls
+copyF
+vi destfile
+ls
+vi copyF
+clear
+copyF
+ls
+rm -rf srcfile
+rm -rf srcfile-copy 
+rm -rf destfile 
+ls
+copyF myfile myfile2
+ls
+clear
+vi params
+chmod +x params
+params
+params one two 3 four 5 6 bye
+vi delete
+ls
+vi delN
+ls
+chmod +x delN 
+delN delete2
+ls
+vi copyfN
+ls
+chmod +x copyfN
+copyfN delN DelFile
+vi copyfN
+copyfN delN DelFile
+vi copyfN
+ls
+copyfN delN DelFile1
+ls
+vi whoisuser
+
+chmod +x whoisuser
+whoisuser u12345
+whoisuser u1141648
+whoisuser root
+clear
+params
+params one two three 4 5 6 seven 8 9 ten bye
+vi params
+params one two three 4 5 6 seven 8 9 ten bye
+more /etc/rc.sysinit
+more /etc/rc.local
+clear
+more /etc/rc.local
+more /etc/rc.sysinit
+whoisuser u1152537
+whoisuser u1141648
+whoisuser u1152329
+vi whoisuser
+whoisuser u1152329
+whoisuser u1152329
+whoisuser u1152537
+vi whoisuser
+whoisuser u1152537
+vi whoisuser
+params
+params one two three 4 5 6 seven 8 9 ten bye
+more /etc/rc.local
+more /etc/rc.sysinit
+ exit
+mkdir u1141648_proj1
+mkdir u1141648_proj1/comp311_proj1
+mkdir u1141648_proj1/comp311_proj1/personal_info
+mkdir u1141648_proj1/comp311_proj1/multimedia
+mkdir u1141648_proj1/comp311_proj1/multimedia/audio
+mkdir u1141648_proj1/comp311_proj1/multimedia/videos
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures/personal
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures/others
+mkdir u1141648_proj1/comp311_proj1/educational/Archive
+mkdir u1141648_proj1/comp311_proj1/educational
+mkdir u1141648_proj1/comp311_proj1/educational/Archive
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018/java
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Base
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/doc1
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/exam
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/homework
+ls -a
+ls -al
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+clear
+touch u1141648_proj1/comp311_proj1/personal_info/pInfo.txt
+vi u1141648_proj1/comp311_proj1/personal_info/pInfo.txt
+clear
+tree u1141648_proj1
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path u1141648_proj1/comp311_proj1/personal_info 
+ln -s /path u1141648_proj1/comp311_proj1/personal_info /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+tree u1141648_proj1
+ln -s /path u1141648_proj1/comp311_proj1/personal_info /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt lfile
+tree u1141648_proj1
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path u1141648_proj1/comp311_proj1/personal_info lfile
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path u1141648_proj1/comp311_proj1/personal_info/lfile
+tree u1141648_proj1
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_
+tree u1141648_proj1
+ln -s s_S2018 /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/ /path u1141648_proj1/comp311_proj1/personal_info 
+tree u1141648_proj1
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path
+ u1141648_proj1/comp311_proj1/personal_inf
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path
+ln -s lfile /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path u1141648_proj1/comp311_proj1/personal_info 
+tree u1141648_proj1
+touch u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+vi u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+vi u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+vi u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+vi u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+clear
+tail -1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -3 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+head -3 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+head - u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+head -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -3 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+head -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail 1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail 2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail --1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+head -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+tail -1 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+ls -al /usr/bin
+cut -d -f9(ls -al /usr/bin)
+cut -d -f9 (ls -al /usr/bin)
+cut -d -f9 | (ls -al /usr/bin)
+ls -al /usr/bin | cut -d: -f3
+ls -al /usr/bin | cut -d  -f3
+ls -al /usr/bin | cut -d[ ]  -f3
+ls -al /usr/bin | cut -d" "  -f3
+ls -al /usr/bin | cut -d" "  -f9
+ls /usr/bin | cut -d  -f9
+ls /usr/bin
+ls /usr/bin | grep g[a-z]o
+ls /usr/bin | grep ^g[a-z]o
+ls /usr/bin | grep '^g[a-z]o'
+ls /usr/bin | grep '^g[a-z]o' > u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+more u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+cp u1141648_proj1/comp311_proj1/personal_info/c4file.txt cd u1141648_proj1/comp311_proj1/educational/Current_year
+cp u1141648_proj1/comp311_proj1/personal_info/c4file.txt u1141648_proj1/comp311_proj1/educational/Current_year | cd u1141648_proj1/comp311_proj1/educational/Current_year
+tree u1141648_proj1
+mv u1141648_proj1/comp311_proj1/educational/Current_year/c4file.txt u1141648_proj1/comp311_proj1/educational/Current_year/new_c4file.txt
+tree u1141648_proj1
+more u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff
+vi u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff
+rm u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff
+tree u1141648_proj1
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff
+tree u1141648_proj1
+rm u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff
+tree u1141648_proj1
+
+tree u1141648_proj1
+rm u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+tree u1141648_proj1
+rmdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+tree u1141648_proj1
+clear
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_year/s2018/linux/command.txt
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+cp u1141648_proj1/comp311_proj1/educational/Current_y u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+
+man passwd
+tree u1141648_proj1
+man 5 passwd
+man passwd
+passwd u1141648 
+passwd
+passwd
+logout
+tree u1141648_proj1
+logout
+exit
+exite
+exit
+ls -al
+echo $?
+cp
+echo $/
+echo $?
+echo $? cp
+echo $?
+echo $? cp
+ls -al
+echo $? cp
+echo $? cp
+echo $? ls -al
+cp
+echo $?
+cp
+echo $?
+ls -al 
+echo $?
+cp
+cp
+echo $?
+echo $?
+vi checkcomand
+checkcomand date
+chmod +x checkcomand
+checkcomand date
+ls
+ls
+clear
+ls
+checkcomand date
+vi checkcomand
+clear
+checkcomand date
+checkcomand date
+checkcomand date
+checkcomand date
+checkcomand date
+checkcomand date
+checkcomand date
+
+ls
+chmod +x checkcomand
+PATH = $PATH:.
+PATH=$PATH:.
+checkcomand date
+checkcomand MV
+vi delte
+clear
+vi delete
+touch 123456
+ls
+delete 123456
+vi delete
+clear
+delete 123456
+delete 123456
+ls
+delete 123456
+vi delete
+clear
+ls -al
+mkdir dir7 
+mkdir dir8 ; touch file7 
+ls -al
+delete
+delete dir7
+ls -al
+vi delete
+clear
+ls -al
+delete dir7
+vi delete
+clear
+ls -al
+vi copy_L10
+clear
+touch f1
+touch f2
+mk d1
+mkdir d1
+mkdir d2
+ls -al
+copy_l10
+chmod +xcopy_l10
+chmod +x copy_l10
+chmod +x copy_L10
+ls -al
+copy_L10
+copy_L10 f1 f2
+copy_L10 d1 d2
+copy_L10 wree spee
+vi checkName
+clear
+ls -al
+checkName ahmad
+chmod +xcheckName
+chmod +x checkName
+checkName ahmad
+checkName ahmad
+checkName ah
+vi checkName
+clear
+checkName ah
+checkName ahmad
+checkName
+vi checkusername
+vi checkusername
+checkusername 1141188
+chmode +xcheckusername
+chmode +x checkusername
+chmod +x checkusername
+checkusername 1141188
+clear
+checkusername 1141188
+checkusername 1141648
+vi SearchScript
+ls -al
+vi SearchScript
+chmod +x SearchScript
+SearchScript mo
+vi SearchScript
+SearchScript mo
+vi SearchScript
+SearchScript mo
+mo
+SearchScript
+mo
+vi SearchScript
+SearchScript mo
+ls -al
+more selectedUsers.txt
+more selectedUser.txt
+more SelectedUser.txt
+vi SelectedUser.txt
+clear
+ls -al
+ls
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+clear
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+clear
+stat u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+vi SearchScript
+cat /etc/passwd | cut -d: -f5 | grep 'u1152477'
+cat /etc/passwd | cut -d: -f5 | grep u1152477
+more (cat /etc/passwd | cut -d: -f5 | grep u1152477)
+
+grep -i ahmad students | cut -d: -f3 | cut -d_ -f1 | tr "A-Z" "a-z" 
+grep u1152477 | cut -d: -f5 /etc/passwd
+cut -d: -f5 /etc/passwd
+cut -d: -f5 /etc/passwd |cut -d_ -f2
+cut -d: -f5 /etc/passwd |cut -d_ -f2
+cut -d: -f5 /etc/passwd |cut -d_ -f2 | grep u1152477
+cut -d: -f5 /etc/passwd |cut -d_ -f2
+grep u1141648 /etc/passwd | cut -d: -f5 |cut -d_ -f2
+grep u1152477 /etc/passwd | cut -d: -f5 |cut -d_ -f2
+more /etc/passwd
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+tree u1141648_proj1
+find homework.txt
+find /home homework.txt
+find /home/u1141648 homework.txt
+find /home/u1141648 "homework.txt'
+find /home/u1141648 "homework.txt"
+find /home/u1141648 'homework.txt'
+find /home/u1141648 -name 'homework.txt'
+find /home/u1141648 -name 'homework.*'
+find . -name 'homework.*'
+find /home -user u1141648 -iname "homework"
+find /home/u1141648 -iname "homework"
+find /home/students/u1141648 -iname "homework"
+find /home/students/comp331/u1141648 -iname "homework"
+find /home/students/comp331/u1141648 -iname "homework"
+find /home/students/comp331/u1141648 -iname "homework"
+find /home/students/comp311/u1141648 -iname "homework"
+find /home/students/comp311/u1141648 -iname "homework"
+more (find /home/students/comp311/u1141648 -iname "homework")
+more (find /home/students/comp311/u1141648 -iname "homework")
+more (find /home/students/comp311/u1141648 -iname "homework.txt")
+find /home/students/comp311/u1141648 -iname "homework.txt"
+find /home/students/comp311/u1141648/comp311_proj1 -iname "homework.txt"
+find /home/students/comp311/u1141648/comp311_proj1 -iname "homework"
+find /home/students/comp311/u1141648/comp311_proj1 -iname "homework"
+find /home/students/comp311/u1141648/comp311_proj1 -iname "homework"
+find /home/students/comp311/u1141648 -iname "homework"
+grep '^/'(find /home/students/comp311/u1141648 -iname "homework")
+grep '^/' (find /home/students/comp311/u1141648 -iname "homework")
+grep '^/' find /home/students/comp311/u1141648 -iname "homework"
+grep '^/' | find /home/students/comp311/u1141648 -iname "homework"
+grep '^/' | find /home/students/comp311/u1141648 -iname "homework" | grep '^/'
+find /home/students/comp311/u1141648 -iname "homework" | grep '^/'
+find /home/students/comp311/u1141648 -iname "homework" | grep '^/'
+more | find /home/students/comp311/u1141648 -iname "homework" | grep '^/'
+more | find /home/students/comp311/u1141648 -iname "homework"
+grip 'u1141648' | find /home/students/comp311/u1141648 -iname "homework"
+find /home/students/comp311/u1141648 -iname "homework.txt"
+find /home/students/comp311/u1141648 -iname "homework"
+find /home/students/comp311/u1141648 -iname ""
+grip 'u1141648' | find /home/students/comp311/u1141648 -iname "homework"
+grip 'u1141648' | find /home/students/comp311/u1141648 -name "homework"
+grip 'u1141648' | find ./ -name "homework"
+grip 'u1141648' | find -f ./ -name "homework"
+find -f ./ -name "homework"
+find ./ -name "homework"
+find ./ -iname "homework"
+more | find ./ -iname "homework"
+more ./ -iname "homework"
+more | find ./ -iname "homework"
+vi u1141648_proj1/comp311_proj1/educational/Current_y
+tree u1141648_proj1
+echo 'Hello World' > u1141648_proj1/comp311_proj1/educational/Current_year/data_structure/diff
+echo 'Hello World' > u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+vi u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+vi u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+tree u1141648_proj1
+echo 'Hello World' > u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+vi u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+vi u1141648_proj1/comp311_proj1/educational/Current_year/data_Structure/diff
+tree u1141648_proj1
+clear
+tree u1141648_proj1
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+clear
+vi linux
+map! linux
+vi .exrc
+vi .exrc
+clear
+ls -a
+ls
+ls -al
+ls -h
+ls -ah
+ls
+ls -al /etc
+ls -al /etc | more
+ls -al /etc | more
+cp
+ls
+more myfile
+vi myfile
+ls
+vi lsfile
+cp lsfile myfile
+vi myfile
+clear
+who
+finger u1141648
+who
+finger
+w
+write u1161196 
+mesg
+man map
+man du
+clear
+man du
+man du
+ls /usr/bin
+as
+ar
+ls /usr/sbin
+mtr
+sdpd
+zic
+ls /usr/bin
+znew
+ar
+more /etc/passwd
+man passwd
+man 5 passwd
+more /etc/group
+more /etc/group
+ man 5 groups
+ man 5 group
+more /etc/group
+ls
+vi cph
+vi cph
+clear
+ls al
+ls -al
+ls -a
+ls -l
+ls -al
+list
+vi cph
+ls
+vi cph
+vi cph
+vi cph
+vi cph
+
+vi cph
+vi cph
+vi cph
+vi cph
+vi cph
+vi cph
+vfm -r cph
+ls
+ls -al
+rm .cph.swp
+ls -al
+ls -al
+vi cph
+tree u1141648_proj1
+cd,find -name homework
+find -name homework
+more,find -name homework
+cat,find -name homework
+cat $(find -name homework)
+more $(find -name homework)
+grep $(find -name homework)
+$(find -name homework)
+chmod u+x $(find -name homework)
+$(find -name homework)
+$(find -name homework)
+more $(find -name homework)
+cat,find -name homework
+ls -al
+vi .sh_history
+[Bls -al kj2uegpufgY
+vi .bash_history
+
+tac $(find -name homework)
+find -name homework
+find ./ -name homework
+more $(find ./ -name homework)clear
+clear
+ls -al
+tree u1141648_proj1
+tree u1141648_proj1
+mv u1141648_proj1/comp311_proj1/educational/Current_y u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+more u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+more u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+tar -cvf u1141648_proj1.tar u1141648_proj1
+ls -al
+tree u1141648_proj1
+echo HelloWorld>u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure/diff,rm -rf u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+tree u1141648_proj1
+tar -cvf u1141648_proj1.tar u1141648_proj1
+ls -al
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt
+vi u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt

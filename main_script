@@ -1,0 +1,12 @@
+echo "Please select your choice (1-4) :" 
+read value
+case $value in 
+1) script1
+;;
+2) script2
+;; 
+3) script3 
+;; 
+*) 
+;;
+esac

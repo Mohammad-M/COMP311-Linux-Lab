@@ -1,0 +1,87 @@
+while true
+do
+	echo
+	echo " Modify course Info"
+	echo
+	echo "Please Enter ID course"
+	read id
+	
+	Exists=$(grep $id courses | cut -d ',' -f1)
+		
+	if [ "$Exists" != "$id" ]
+	then
+        	echo "Invalid ID, No Such ID!"
+	else
+    		
+    		while [ 1 ]
+		do
+			echo please ch one of the following :
+			echo
+			echo "1- modify isbn"
+			echo "2- modify instructor last name"
+			echo "3- exit"
+		
+			read ch
+		
+			case "$ch" in 
+				1)
+				while [ 1 ]
+				do
+					echo "Please Enter book isbn"
+					read isbn
+					noOfDigit=$(ex $(echo $isbn |wc -c) - 1)
+					if [ $noOfDigit -eq 12 ]
+						then
+							char=$(echo $isbn |tr -d '-')
+							if [[ $char=~^[0-9]+$ ]]
+							then
+								fnum=$(echo $isbn |cut -d '-' -f1 )
+								noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+								if [ $noOfDigit -eq 2 ]
+								then
+									fnum=$(echo $isbn |cut -d '-' -f2 )
+									noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+									if [ $noOfDigit -eq 3 ]
+									then
+										fnum=$(echo $isbn |cut -d '-' -f3 )
+										noOfDigit=$(ex $(echo $fnum |wc -c) - 1)
+										if [ $noOfDigit -eq 5 ]
+										then
+											break
+										else
+											echo error4
+										fi
+									else
+										echo error3
+									fi
+								else
+									echo error2
+								fi
+							else
+								echo error1
+							fi
+					else
+						echo "not valid : $id"
+					fi
+				done
+				oldisbn=$(grep $id courses | cut -d ',' -f3)
+				sed -i "" "/$id/s/$oldisbn/$isbn/" courses
+				echo .................................................................
+				;;
+				2)
+					echo "Please Enter your new Last Name of instructor"
+					read newLastName
+					oldLastName=$(grep $id courses | cut -d ',' -f5)
+					sed -i "" "/$id/s/$oldLName/$newLName/" courses
+					echo .................................................................
+				;;
+				3)
+				exit
+				echo .................................................................
+				;;
+			esac
+		done
+		
+    		
+	fi
+done

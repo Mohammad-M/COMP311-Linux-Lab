@@ -1,0 +1,14 @@
+if [ $# -ne 1 ] 
+then 
+echo Usage: checkName name 
+exit 1
+else 
+if [ "$1" = "ahmad" ] 
+then
+echo $1: Hello 
+exit 0 
+else 
+echo  $1:GoodBye 
+exit 0
+fi 
+fi 

@@ -1,0 +1,20 @@
+if [ $# -ne 1 ] 
+then 
+echo Usage: delete fileName
+exit 1
+else 
+if [ -f $1 ]
+then
+rm $1
+echo file $1 is deleted 
+exit 0
+elif [ -d $1 ]
+then 
+rm -r $1 
+echo Directory $1 is deleted 
+exit 0 
+else 
+echo $1: No such file or dir
+exit 2
+fi
+fi 

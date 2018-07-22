@@ -1,0 +1,40 @@
+while true
+do
+	echo
+	echo please select form following
+	echo
+	echo "1- Delete course"
+	echo "2- Delete All courses"
+	echo "3- Modify courses Info"
+	echo "4- exit"
+	echo
+	read ch
+
+	case "$ch" in 
+		1)
+			echo "Please Enter course ID "
+			read id
+			isExists=$(grep $id courses | cut -d ',' -f1)
+			
+			if [ "$isExists" != "$id" ]
+			then
+		        	echo "invalid ID"
+			else
+	        		sed -i "" "/$id/d" courses
+	        		echo "course is deleted!"
+	        		
+			fi
+		;;
+		2)
+		echo > courses
+		echo "all courses are deleted!"
+		;;
+		3)
+		./modify
+		;;
+		4)
+		
+		exit
+		;;
+	esac
+done

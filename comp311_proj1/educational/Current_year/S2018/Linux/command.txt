@@ -1,0 +1,92 @@
+Mohammad Mohammad  UID:1141648
+
+1
+Command#1
+mkdir u1141648_proj1
+mkdir u1141648_proj1/comp311_proj1
+mkdir u1141648_proj1/comp311_proj1/personal_info
+mkdir u1141648_proj1/comp311_proj1/multimedia
+mkdir u1141648_proj1/comp311_proj1/multimedia/audio
+mkdir u1141648_proj1/comp311_proj1/multimedia/videos
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures/personal
+mkdir u1141648_proj1/comp311_proj1/multimedia/pictures/others
+mkdir u1141648_proj1/comp311_proj1/educational
+mkdir u1141648_proj1/comp311_proj1/educational/Archive
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/S2018/java
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Base
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+mkdir u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/doc1
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/exam
+touch u1141648_proj1/comp311_proj1/educational/Current_year/F2018/C_programing/homework
+
+2
+touch u1141648_proj1/comp311_proj1/personal_info/pInfo.txt
+vi u1141648_proj1/comp311_proj1/personal_info/pInfo.txt
+wq
+
+3
+vi .exrc
+map! S ^[:wq!
+map C GykP1GPP:wq!w
+
+4
+Command#2
+ln -s /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/Linux/command.txt /path
+ u1141648_proj1/comp311_proj1/personal_info
+
+ln -s s_S2018 /path u1141648_proj1/comp311_proj1/educational/Current_year/S2018/
+ /path u1141648_proj1/comp311_proj1/personal_info
+
+5
+Command#3
+touch u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+
+7
+Command#4
+tail -2 u1141648_proj1/comp311_proj1/multimedia/audio/favorit_styles.txt
+
+8
+Command#5
+ls /usr/bin | grep '^g[a-z]o' > u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+
+9
+Command#6
+cp u1141648_proj1/comp311_proj1/personal_info/c4file.txt u1141648_proj1/comp311_proj1/education
+al/Current_year | cd u1141648_proj1/comp311_proj1/educational/Current_year
+
+10
+Command#7
+mv u1141648_proj1/comp311_proj1/educational/Current_year/c4file.txt u1141648_proj1/comp311_proj
+1/educational/Current_year/new_c4file.txt
+
+11
+Command#8
+
+echo HelloWorld>u1141648_proj1/comp311_proj1/educational/Current_year/F2018/
+data_Structure/diff,rm -rf u1141648_proj1/comp311_proj1/educational/Current_year/F2018/data_Structure
+
+12
+Command#9
+
+chmod 266 u1141648_proj1/comp311_proj1/educational/Current_year/F2018
+
+13
+Command#10
+
+more $(find ./ -name homework)
+
+14
+Command#11
+
+stat u1141648_proj1/comp311_proj1/personal_info/c4file.txt
+
+15
+Command#12
+
+grep UserName /etc/passwd | cut -d: -f5 |cut -d_ -f2

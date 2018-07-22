@@ -1,0 +1,16 @@
+if [ $# -ne 0 ] 
+then
+for filename in $1/*
+do
+
+	if [ -f $filename ]
+	then
+		echo $filename a file
+	elif [ -d $filename ]
+	then
+		echo $filename a dir
+	else
+		echo $filename unknown
+	fi
+done
+fi

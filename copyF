@@ -1,0 +1,6 @@
+echo Enter source file name:
+read src 
+echo Enter destination file name:
+read dest
+cp $src $dest
+echo file $src copied to file $dest.

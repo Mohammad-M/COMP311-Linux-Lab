@@ -1,0 +1,65 @@
+total 168
+drwx------ 10 u1141648 students 4096 Mar 22 14:05 .
+drwxr-xr-x 94 root     root     4096 Mar  1 13:46 ..
+-rw-------  1 u1141648 students 3420 Mar  1 16:13 .bash_history
+-rw-r--r--  1 u1141648 students   33 Feb  7 18:12 .bash_logout
+-rw-r--r--  1 u1141648 students  176 Feb  7 18:12 .bash_profile
+-rw-r--r--  1 u1141648 students  124 Feb  7 18:12 .bashrc
+drwxr-xr-x  2 u1141648 students 4096 Mar  1 16:01 Computer
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:28 destfile
+-rw-r--r--  1 u1141648 students  515 Feb  7 18:12 .emacs
+-rw-------  1 u1141648 students   35 Mar  1 14:58 .lesshst
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:38 links
+-rw-r--r--  1 u1141648 students    0 Mar 22 14:06 lsfile
+drwxr-xr-x  8 u1141648 students 4096 Mar  1 15:14 mod
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:35 mod2
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:43 mod3
+drwxr-xr-x  4 u1141648 students 4096 Feb  7 18:12 .mozilla
+-rw-r--r--  1 u1141648 students   18 Mar 22 13:56 myfile
+-rw-r--r--  1 u1141648 students   18 Mar 22 14:01 output
+drwxr-xr-x  3 u1141648 students 4096 Mar  1 16:07 q1
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:28 srcfile
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:30 srcfile-copy
+-rw-------  1 u1141648 students 1476 Mar 22 14:03 .viminfo
+drw-r-xr--  2 u1141648 students 4096 Mar  1 14:58 xxx
+total 172
+drwx------ 10 u1141648 students 4096 Mar 22 14:05 .
+drwxr-xr-x 94 root     root     4096 Mar  1 13:46 ..
+-rw-------  1 u1141648 students 3420 Mar  1 16:13 .bash_history
+-rw-r--r--  1 u1141648 students   33 Feb  7 18:12 .bash_logout
+-rw-r--r--  1 u1141648 students  176 Feb  7 18:12 .bash_profile
+-rw-r--r--  1 u1141648 students  124 Feb  7 18:12 .bashrc
+drwxr-xr-x  2 u1141648 students 4096 Mar  1 16:01 Computer
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:28 destfile
+-rw-r--r--  1 u1141648 students  515 Feb  7 18:12 .emacs
+-rw-------  1 u1141648 students   35 Mar  1 14:58 .lesshst
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:38 links
+-rw-r--r--  1 u1141648 students 1335 Mar 22 14:06 lsfile
+drwxr-xr-x  8 u1141648 students 4096 Mar  1 15:14 mod
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:35 mod2
+drwxr---w-  2 u1141648 students 4096 Mar  1 15:43 mod3
+drwxr-xr-x  4 u1141648 students 4096 Feb  7 18:12 .mozilla
+-rw-r--r--  1 u1141648 students   18 Mar 22 13:56 myfile
+-rw-r--r--  1 u1141648 students   18 Mar 22 14:01 output
+drwxr-xr-x  3 u1141648 students 4096 Mar  1 16:07 q1
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:28 srcfile
+-rw-r--r--  1 u1141648 students    0 Feb  8 14:30 srcfile-copy
+-rw-------  1 u1141648 students 1476 Mar 22 14:03 .viminfo
+drw-r-xr--  2 u1141648 students 4096 Mar  1 14:58 xxx
+u1162344 pts/36       2018-03-22 13:50 (172.18.34.49)
+u1152477 pts/39       2018-03-22 13:50 (172.18.34.78)
+u1142011 pts/37       2018-03-22 13:50 (172.18.34.50)
+u1160394 pts/45       2018-03-22 13:50 (172.18.34.51)
+u1162643 pts/44       2018-03-22 13:50 (172.18.34.59)
+u1162344 pts/46       2018-03-22 13:50 (172.16.2.90)
+u1152329 pts/53       2018-03-22 13:51 (172.18.34.56)
+u1141648 pts/55       2018-03-22 13:51 (172.18.34.52)
+u1153279 pts/58       2018-03-22 13:51 (172.18.34.65)
+u1142608 pts/20       2018-03-22 13:56 (172.18.34.64)
+u1161196 pts/60       2018-03-22 13:57 (172.18.34.58)
+u1162618 pts/59       2018-03-22 13:57 (172.18.34.67)
+u1141188 pts/61       2018-03-22 13:57 (172.18.34.83)
+u1152078 pts/62       2018-03-22 13:59 (172.18.34.55)
+u12345   pts/63       2018-03-22 14:06 (172.18.34.80)
+u12345   pts/21       2018-03-22 14:07 (172.18.34.80)
+hi

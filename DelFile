@@ -1,0 +1,2 @@
+rm $1
+echo $1 have been deleted.

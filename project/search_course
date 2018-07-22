@@ -1,0 +1,51 @@
+while true
+do  
+	echo 
+	echo chose one of the following :
+	echo
+	echo "1- Search By id courses"
+	echo "2- Search By Name"
+	echo "3- Back"
+	read ch
+
+	case "$ch" in
+		1)
+		
+		
+		
+			echo "Enter course ID"
+			read id
+			Exists=$(grep $id courses | cut -d ',' -f1)
+			
+			if [ "$Exists" != "$id" ]
+			then
+		        	echo "invalid ID!"
+			else
+	        		
+	        		 grep $id courses
+	        		
+			fi
+		
+		;;
+		2)
+		
+			echo "Enter instructor Name "
+			read name
+			numofL=$(grep $name courses |wc -l)
+			
+			if [ $numofL -gt 0  ]
+			then
+		        	grep $name courses |sort -k2 -t ' ' -f
+			else
+	        		
+	        		echo name dose not exist	        		
+			fi
+			echo .................................................................
+		
+		;;
+		3)
+		exit 
+	echo .................................................................
+		;;
+	esac
+done	

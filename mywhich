@@ -1,0 +1,12 @@
+for path in $(echo $PATH | sed 's/:/ /g')
+do
+
+	if [ -f $path/$1 ]
+	then
+		echo $path/$1
+		exit
+	fi
+
+done
+
+echo $1 no such command found

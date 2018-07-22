@@ -1,0 +1,746 @@
+cd
+clear
+ls
+clear
+cp
+cp --help
+l
+-l
+-ls
+clear
+ls
+ls-a
+clear
+cp -help
+cp -h
+h
+clear
+finger
+ls
+ls -a
+ls -al
+pwd
+ls -l
+clear
+ls
+ls -a
+ls -l
+ls -al
+ls -al/etc
+ls -al /etc
+skel
+yum
+manls -al /etc
+man ls -al /etc
+manls -al
+man ls -al
+man ls -al /etc | more
+ls -al /etc | more
+clear
+cp
+man -cp
+c
+rm
+cp -help
+cp
+cp --help
+ls -al /etc --help
+cp srcfile destfile
+clear
+touch srcfile
+cp srcfile destfile
+ls
+cp srcfile srcfile-copy
+ls
+cp srcfile srcfile-copy
+who
+finger 1152477
+finger u1152477
+finger
+w
+w
+w
+w
+w
+w
+write 1152477
+heloo
+write u1152477
+mesg
+clear
+man passwd
+MESG N
+mesg n
+mesg
+man passwd
+passwd Don u1141648 
+passwd ucgidp
+passwd u1141648 
+clear
+man passwd
+man 5 passwd
+du
+man du
+man du -h
+passwd
+man du
+du
+du -h
+du -s
+/user/bin
+help
+--help
+-help
+help
+times
+man times
+times -a
+times -s
+times
+times -s
+times 10
+times 18
+times 1
+clear
+help
+test
+test a
+clear
+help
+kill
+man kill
+ls -al
+ls -al/etc
+ls -al /etc
+man yum
+ls -al /etc
+man skel
+man xml
+xml
+rhgb
+rmt
+adjtime
+man adjtime
+more /etc/passwed
+more /etc/passwd
+man 5 passwd
+finger
+more /etc/group
+man 5 group
+more /etc/group
+
+more /etc/group 66 
+clear
+logout
+clear
+exit
+touch myfile
+sl -R
+ls -R
+cd myfile
+myfile
+vi myfile
+clr
+clear
+vi myfile
+clear
+ls -al
+mkdir
+mkdir mod
+cd mod
+touch myfile
+ls -al
+chmod 756 myfile
+ls -al
+chmod 461 myfile
+ls -al
+chmod 073 myfile
+ls -al
+chmod u+rwx.c';eo+r myfile
+ls -al
+mkdir mydir
+ls -al
+cfdnzvkjfdnlvjmod 73 m0yfil.c';
+chmod u+rwx,g-w,o-x myfile
+ls -al
+chmod o+r myfile
+ls -al
+chmod u+rwx,g-w,o-x mydir
+ls -al
+chmod u+rwx,g-w,o+w mydir
+ls -al
+umask
+chmod u-wx,g+-rw,o-rw+x mydir
+ls -al
+chmod g+rw-x mydir
+ls -al
+chmod u-wx,g-x+w,o-rw+x myfile
+ls -al
+chmod u-r,g+x,o+w myfile
+ls -al
+chmod u-r,g+x,o+w mydir
+ls -al
+ls -l
+chmod u-r,g+x,o+w myfile
+ls -l
+chmod 753 mydir
+ls -l
+chmod 756 mydir
+ls -l
+chmod 756 myfile
+ls -l
+chmod 461 myfile
+chmod 461 mydir
+ls -l
+chmod 073 mydir
+chmod 073 myfile
+ls -l
+cd
+umax
+umaxumask
+umask
+man 2 umask
+umask 123
+mkdir xxx
+touch xxx
+sl -l
+ls -l
+cd myfile
+cd mod
+ls -l
+mkdir xxx
+touch xxxz
+ls -l
+umask 625
+mkdir xxx2
+touch xxxz2
+ls -l
+mkdir zzz
+touch zzz
+ls -l
+touch zzz
+touch zzzz
+ls -l
+umask 123
+umask 034
+mkdir wwww1
+ls -l
+umask 315
+
+ls -l
+touch aaa
+ls -l
+umask 34
+touch aa1
+ls -l
+umask 35
+touch aa1
+touch a
+ls -l
+cd
+ls -l
+mkdir mod2
+ls -l
+cd mod2
+touch file1
+touch file2
+ls -l
+ln file1
+cd
+mkdir links
+cd links
+ln mod2file1
+ln mod2/file1
+ln //mod2/file1
+ln ../mod2/file1
+ln -s ../mod2/file2
+ls -l
+cd
+cd mod2
+cd
+cd links
+ls -l
+cd
+mkdir mod3
+cd mod3
+touch file1
+touch file2
+ln file1 hlink
+ln -s file2 slink
+ls -l
+chmod 774 file1
+ls -l
+chmod 701 hlink
+ls -l
+chmod 654 slink
+ls -l
+chmod 475 slink
+ls -l
+chmod 475 slink
+ls -l
+chmod 575 slink
+ls -l
+clear]
+clear
+cd
+clear
+ls -al
+ls -l
+cd /div
+cd ../div
+cd ..div
+cd
+cd
+cd
+ls -l
+clear
+umask 0022
+ls -l
+clear
+mkdir q1
+cd q1
+mkdir Computer linux
+mkdir Computer linux/Instructors
+mkdir 
+ls-al
+ls -al
+ls-al
+ls -al
+rm -rf computer
+rm -rf linux
+ls -al
+rm -rf Computer
+ls -al
+mkdir Computerlinux
+mkdir Computerlinux/Instructor Students Books
+ls -al
+sd Computerlinux
+cd Computerlinux
+ls -al
+mkdir Students Books
+ls -al
+cd Instructor
+mkdir IDS
+mkdir cvs
+cd
+cd Instructor
+ls -al
+cd q1
+ls -al
+rm -rf Students
+rm -rf Books
+ls -al
+cd Computerlinux
+ls -al
+cd Students
+mkdir Names
+touch DataFile2
+ls -al
+cd Names 
+touch DataFile3
+ls -al
+ln ../q1/Computerlinux/Books
+ln //q1/Computerlinux/Books
+cd
+ls -al
+cd q1
+ls -al
+cd Computerlinux
+ls -al
+cd Instructor
+ls -al
+cd cvs
+mkdir Documents
+clear
+clear
+who
+clear
+cp
+cp >cpfile
+cp > cpfile
+cp > myfile
+ls
+cp 2> cpfile
+more cpfile\
+more cpfile
+find / -name passwd -print
+clear
+mail u1142011
+mail
+ls
+vi myfile
+more myfile
+clear
+more myfile
+tr "a-z" "A-Z" < message
+tr "a-z" "A-Z" 
+
+tr "a-z" "A-Z" <myfile> output
+ls
+vi output
+:q
+tr "a-z" "A-Z" <<!
+ls
+vi srcfile
+ls
+vi srcfile-ciopy
+ls
+clear
+tr "a-z" "A-Z" <<!
+ls-al > lsfile
+ls-al
+ls-al
+ls-al > lsfile
+ls-al > lsfile
+ls-al > lsfile
+ls-al > lsfile
+ls-al > lsfile
+was-al > sdvfaghmhh
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al
+ls -al > lsfile
+more lsfile
+ls -al >> lsfile
+who >> lsfile
+echo hi >> lsfile
+more lsfile
+clear
+who
+echo hello > /dev/pts/63
+echo hello") > /dev/pts/55
+i[u
+
+
+\
+\!
+!
+echo hello") > /dev/pts/55
+
+\
+\!
+!
+
+
+
+
+echo hello") > /dev/pts/63
+i[u
+
+
+\
+\!
+!
+
+
+
+
+
+
+
+clear
+echo hello ") > /dev/pts/63
+
+
+echo hello ") > /dev/pts/55
+
+
+
+
+
+clear
+echo hello  > /dev/pts/55
+echo hello  > /dev/pts/63
+echo hello  > /dev/pts/63
+echo hello  > /dev/pts/63
+echo hello  > /dev/pts/63
+echo hello>>  > /dev/pts/63
+echo hello...  > /dev/pts/63
+echo hello  > /dev/pts/63
+echo hello  > /dev/pts/63
+echo hello$$  > /dev/pts/63
+echo hello$  > /dev/pts/63
+echo hello$$  > /dev/pts/63
+echo hello$$$  > /dev/pts/63
+echo hello$$  > /dev/pts/63
+echo hello$$$$  > /dev/pts/63
+clear
+find / -namen passwd -print
+find / -name passwd -print
+find / -namen passwd -print 2> error
+find / -namen passwd -print > output 2> error
+find / -namen passwd -print > output 2 > error
+find / -namen passwd -print > output 2> error
+ls
+clear
+ls
+more error
+more lsfile
+more ree
+more error
+ls
+vi error
+c lear
+clear
+cat /etc/passwd | grep u1141648 | cut -d: -f5 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f4 | cut -d_ -f1
+cat /etc/passwd | grep u1141648
+cat /etc/passwd | grep u1141648 | cut -d: -f6 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f7 | cut -d_ -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f5
+etc group
+cat /etc/passwd
+who
+who | grep u1141648 | 
+who | grep u1141648 | tr -s " " | cut -d: -f5
+who | grep u1141648 | tr -s " " | cut -d: -f4
+who | grep u1141648 | tr -s " " | cut -d_ -f4
+who | grep u1141648 | tr -s " " -f4 | cut -d_ -f4
+who | grep u1141648 | tr -s " " -f4 | cut -d_ -f1
+who | grep u1141648 | tr -s " " -f4 | cut -d' ' -f1
+who | grep u1141648 | tr -s " " -f4 | cut -d' ' -f4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+clear
+who | grep u1141648 | tr -s " " | cut -d' ' -d4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+who | grep u1141648 | tr -s " " | cut -d' ' -f4
+cat  /etc/groups | grep u1141648
+ls /etc
+cat  /etc/group | grep u1141648
+who  /etc/group | grep u1141648
+more /etc/group
+who  /etc/group | grep u1141648 | cut -d: -f1
+who  /etc/group_ | grep u1141648 | cut -d: -f1
+who  /etc/group- | grep u1141648 | cut -d: -f1
+clear
+ls /etc
+vi group
+clear
+ls /etc
+cat /etc/group- | grep u1141648 | cut -d: -f1
+cat /etc/group | grep u1141648 | cut -d: -f1
+cat /etc/group | grep u1141648 | cut -d: -f1
+cat /etc/group- | grep u1141648 | cut -d: -f1
+cat /etc/passwd | grep u1141648 | cut -d: -f4
+more /etc/passwd
+more /etc/group
+cat /etc/grouo | grep $(cat /etc/pass | grep u1141648 | cut -d: -f4) cut -d: -f4
+cat /etc/grouo | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4) cut -d: -f4
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f4
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f1
+clear
+cat /etc/group | grep $(cat /etc/passwd | grep u1141648 | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep root | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep u1234 | cut -d: -f4)| cut -d: -f1
+cat /etc/group | grep $(cat /etc/passwd | grep u1152329 | cut -d: -f4)| cut -d: -f1
+find / -name passwd -print \ more
+find / -name passwd -print | more
+cat /etc/group | grep $(cat /etc/passwd | grep u1152329 | cut -d: -f4)| cut -d: -f1
+find / -name passwd -print | more
+find / -name passwd -print | more 2> error
+find / -name passwd -print | more 2>> error
+find / -name passwd -print  2>> error |more
+ls -al
+vi forever
+ls -al
+more forever
+PATH=$PATH
+CHMODE +X forever
+CHMODE +x forever
+chmode +x forever
+chmode u+x forever
+chmod +x forever
+ls -al
+forever&
+forever&
+forever&
+echo $PATH
+PATH=$PATH:.
+echo $PATH
+forever&
+forever&
+forever&
+JOBS
+jobs
+fg %2
+jobs
+bg %2
+jobs
+kill %3
+jobs
+kill %3
+jobs
+forever&
+jobs
+kill %3
+jobs
+kill %3
+kill %2
+kill %2
+kill %1
+kill %1
+jobs
+forever&
+forever&
+forever&
+jobs
+kill %2
+fg %1
+jobs
+bg %1
+jobs
+forever&
+kill %4
+kill %1
+kill %2
+jobs
+kill %3
+jobs
+kill %3
+jobs
+jobs
+forever&
+forever&
+forever&
+fg %1
+forever&
+jobs
+kill %2
+jobs
+kill %4
+jobs
+kill %4
+jobs
+kill %3
+kill %3
+jobs
+kill %1
+kill %1
+jobs
+pid(100)
+pid (100)
+pid (100)
+clear
+
+ps -f
+ps 
+ps -f
+man ps
+ps -ef
+ps -eF
+ps -ely
+ps -eF
+ps -f
+var1=first
+var2=second
+export var2
+set | grep var
+env | grep var
+ksh
+ps -f
+clear
+set | grep var
+env | grep var
+ksh
+ps -f
+ksh
+ps -f
+clear
+ps -l
+ps -l
+ps -l
+nice -6 ps -l
+nice -8 ps -l
+nice --8 ps --l
+nice --8 ps --l
+nice -0 ps -l
+man 7 signal
+forever$
+ps -f
+jobs
+ls -al
+forever&
+jobs
+kill -15 123
+
+jobs
+kill 1
+kill %1
+kill %2
+jobs
+jobs
+ps -f
+ps -l
+ps -ef
+ps -ef | grep forever
+forever&
+ps -f
+jobs
+kill -15 19593
+jobs
+kill -15 19591
+jobs
+kill -15 19591
+kill %2
+jobs
+jobs
+jobs
+jobs
+kill %3
+kill %3
+jobs
+jobs
+jobs
+forever&
+forever&
+forever&
+kill -15 19804
+jobs
+jobs
+kill -TERM 19804
+jobs
+kill -SIGTERM 19804
+kill -SIGTERM 19806
+jobs
+jobs
+kill -15 19807
+jobs
+jobs
+jobs
+jobs
+jobs
+kill -15 20259
+kill -15 20259
+kill -15 20260
+kill -15 20260
+clear
+ps -ef | grep u1141648
+kill -TERM 20260
+kill pidofbash 20260
+ps -ef | grep u1141648
+chmod
+ls
+ls -al
+chmod 316 xxx
+ls -al
+chmod 461 xxx
+ls -al
+chmod 461 forever
+ls -al
+chmod 073 forever
+ls -al
+chmod 073 xxx
+ls -al

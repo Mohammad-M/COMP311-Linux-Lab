@@ -1,0 +1,24 @@
+while true
+do
+	echo 
+	echo chose one of the following :
+	echo
+	echo 1: add courses
+	echo 2: modify course
+	echo 3: search courses
+	echo 4: exit
+	read ch
+	case $ch in
+		1) ./add_course;;
+		2) ./modify_course;;
+		3) ./search_course;;
+		4) exit ;;
+		*) echo ............................................. 
+		cat courses
+		 echo ............................................. 
+		
+		;;
+	esac
+	echo
+	echo
+done
